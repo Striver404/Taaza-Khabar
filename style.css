@@ -1,0 +1,41 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.header{
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+    background-image: linear-gradient(to right,#fad962 , #afe66c);
+}
+#heading{
+    font-size:xx-large;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.navbar-brand{
+    color: rgb(6, 6, 14)!important;
+}
+.nav-link{
+    color: rgb(0, 0, 0)!important;
+}
+.nav-link:hover{
+    color: rgb(228, 21, 21)!important;
+}
+#searchbtn{
+    background-color: bisque;
+    color: #10110e;
+}
+#searchbtn:hover{
+    background-color: rgb(227, 156, 68);
+    color: #10110e;
+}
+#bodypart{
+    background-color: rgb(223, 222, 157);
+}
+
+
+@media(max-width:668px){
+    .nav-link{
+        text-align: center;
+    }
+}
